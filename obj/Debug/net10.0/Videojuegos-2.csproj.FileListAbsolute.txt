@@ -1,0 +1,15 @@
+/workspaces/Videojuegos-2/obj/Debug/net10.0/Videojuegos-2.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/Videojuegos-2/obj/Debug/net10.0/Videojuegos-2.AssemblyInfoInputs.cache
+/workspaces/Videojuegos-2/obj/Debug/net10.0/Videojuegos-2.AssemblyInfo.cs
+/workspaces/Videojuegos-2/obj/Debug/net10.0/Videojuegos-2.csproj.CoreCompileInputs.cache
+/workspaces/Videojuegos-2/obj/Debug/net10.0/Videojuegos-2.sourcelink.json
+/workspaces/Videojuegos-2/bin/Debug/net10.0/Videojuegos-2
+/workspaces/Videojuegos-2/bin/Debug/net10.0/Videojuegos-2.deps.json
+/workspaces/Videojuegos-2/bin/Debug/net10.0/Videojuegos-2.runtimeconfig.json
+/workspaces/Videojuegos-2/bin/Debug/net10.0/Videojuegos-2.dll
+/workspaces/Videojuegos-2/bin/Debug/net10.0/Videojuegos-2.pdb
+/workspaces/Videojuegos-2/obj/Debug/net10.0/Videojuegos-2.dll
+/workspaces/Videojuegos-2/obj/Debug/net10.0/refint/Videojuegos-2.dll
+/workspaces/Videojuegos-2/obj/Debug/net10.0/Videojuegos-2.pdb
+/workspaces/Videojuegos-2/obj/Debug/net10.0/Videojuegos-2.genruntimeconfig.cache
+/workspaces/Videojuegos-2/obj/Debug/net10.0/ref/Videojuegos-2.dll
