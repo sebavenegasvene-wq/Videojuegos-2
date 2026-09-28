@@ -1,31 +1,30 @@
 public class Personaje
 {
-    public string Nombre {get; set;}
+    public string Nombre { get; set; }
+    public int Vida { get; protected set; }
+    protected int Fuerza { get; set; }
 
-    public int Vida {get; protected set;}  //protected es para que solo peda ser utilizado por clases padres o hijas
+    
 
-    public int Fuerza {get; set;}
-
-    public Personaje()
+    public Personaje(string nombre, int vida, int fuerza)
     {
-        
+        Nombre = nombre;
+        Vida = vida;
+        Fuerza = fuerza;
     }
 
-    public Personaje(string nombre,int vida, int fuerza)
-    {
-        Nombre=nombre;
-        Vida=vida;              //estos son constructores, no entendi bien que son
-        Fuerza=fuerza;
-    }
 
-    public virtual void Atacar(Personaje objeto)
+    public virtual void Atacar(Personaje objetivo)
     {
-        Console.WriteLine($"El {objeto.Nombre} fue atacado por {Nombre}")
-        objetivo.RescibirDano
+        Console.WriteLine($"{Nombre} ataca a {objetivo.Nombre} con un golpe básico.");
+       
+        objetivo.RecibirDano(Fuerza);
     }
-
-    public override string ToString()   //sirve para ver que valores tomo el objeto
+    public void RecibirDano(int dano)
     {
-        return $"Nombre: {Nombre}\nVida: {Vida}\nFuerza: {Fuerza}";
+        Vida -= dano;
+        // Validamos que la vida no quede negativa
+        if (Vida < 0) Vida = 0;
+        Console.WriteLine($" -> {Nombre} recibe {dano} de daño. (Vida:{Vida})\n");
     }
 }
